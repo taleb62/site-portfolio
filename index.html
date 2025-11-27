@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Taleb El Mokhtar Mine — Portfolio</title>
+  <meta name="description" content="Portfolio de Taleb El Mokhtar Mine — Développeur web & mobile, spécialiste HPC, Flutter, Python, Java, DevOps." />
+  <meta name="keywords" content="Taleb El Mokhtar Mine, développeur, portfolio, Flutter, Django, Spring Boot, Slurm, DevOps" />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="profile.jpeg" alt="Photo de Taleb El Mokhtar Mine" class="avatar">
+        <div>
+          <h1>Taleb El Mokhtar Mine</h1>
+          <p class="tag">Fullstack & Mobile Developer · HPC & Cloud Enthusiast</p>
+        </div>
+      </div>
+
+      <div class="actions">
+        <a class="btn primary" id="download-cv" href="cv.pdf" download>📄 Télécharger CV</a>
+        <a class="btn outline" href="mailto:talebmine62@gmail.com">✉️ Me contacter</a>
+        <button id="theme-toggle" class="icon-btn" aria-label="Basculer le thème">🌓</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section class="hero card">
+      <div class="hero-left">
+        <h2>Développeur web & mobile</h2>
+        <p class="lead">
+          Motivé et polyvalent — expérience en backend & frontend, spécialisé en infrastructures HPC, Slurm, et applications mobiles (Flutter).
+        </p>
+
+        <div class="ctas">
+          <a class="btn primary" href="cv.pdf" download>Télécharger CV</a>
+          <a class="btn whatsapp" href="https://wa.me/22249923320?text=Bonjour%20Taleb%2C%20je%20vous%20contacterai%20pour%20un%20projet" target="_blank" rel="noopener">
+            💬 WhatsApp
+          </a>
+        </div>
+
+        <div class="socials">
+          <a href="https://linkedin.com/in/taleb-el-mokhtar-mine-72b3802a8" target="_blank" rel="noopener">LinkedIn</a> ·
+          <a href="https://github.com/taleb62" target="_blank" rel="noopener">GitHub</a> ·
+          <a href="mailto:talebmine62@gmail.com">Email</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <img src="profile.jpeg" alt="Photo de Taleb" class="hero-avatar">
+        <div class="badge">Open to opportunities</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h3>Résumé professionnel</h3>
+      <p>
+        Développeur web et mobile avec des projets en Spring Boot, Django, Flutter et PHP. Expérience pratique en mise en place d’une infrastructure HPC (Slurm) pour entraîner des modèles LLM distribués et en développement d’applications mobiles multilingues.
+      </p>
+    </section>
+
+    <section class="card grid">
+      <div>
+        <h4>Compétences techniques</h4>
+        <ul class="skills">
+          <li>Java · Python · JavaScript · PHP · C</li>
+          <li>React · TypeScript · HTML5 · CSS3 · Bootstrap</li>
+          <li>Spring Boot · Django · Laravel · FastAPI</li>
+          <li>MySQL · Supabase · Firebase · Oracle</li>
+          <li>Flutter (mobile)</li>
+          <li>Slurm · Prometheus · Grafana · Ubuntu Server</li>
+          <li>Git · GitHub · SSH · NFS</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Expériences</h4>
+        <ul class="experience">
+          <li><strong>Project Nouakchott</strong> — Application gestion marchés (Spring Boot + Angular) (Mai–Juil 2024)</li>
+          <li><strong>Mauritel</strong> — Application gestion internes (PHP, Bootstrap, JS) (Juil–Août 2023)</li>
+          <li><strong>Projets académiques</strong> — Cluster Slurm pour LLM, App signalement urbain (Flutter+Django)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card">
+      <h4>Projets récents</h4>
+      <ol>
+        <li><strong>Slurm Cluster & LLM</strong> — Déploiement 11 nœuds, monitoring Prometheus/Grafana, validation NanoGPT distribué.</li>
+        <li><strong>Urban Incident Reporting</strong> — Flutter + Django REST, géolocalisation temps réel, mode hors ligne.</li>
+        <li><strong>Recipe Manager</strong> — Flutter + Supabase, gestion utilisateurs & validation admin.</li>
+      </ol>
+    </section>
+
+    <section class="card contact">
+      <h3>Contact & Disponibilité</h3>
+      <p>Disponible pour opportunités en développement fullstack, mobile, et projets HPC.</p>
+      <div class="contact-row">
+        <a class="btn outline" href="mailto:talebmine62@gmail.com">✉️ talebmine62@gmail.com</a>
+        <a class="btn whatsapp" href="https://wa.me/22249923320?text=Bonjour%20Taleb%2C%20je%20souhaite%20collaborer" target="_blank" rel="noopener">💬 WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Taleb El Mokhtar Mine · <a href="cv.pdf" download>CV</a> · <a href="https://github.com/taleb62" target="_blank" rel="noopener">GitHub</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/taleb62/site-portfolio.git
+git push -u origin main
